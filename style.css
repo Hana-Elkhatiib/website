@@ -6,78 +6,13 @@ body{
             margin: 10px;
         }
 
-        h1{
-            text-align: center;
-            color:#9121aa;
-        }
-
-        .heading {
-            text-align: center;
-            font-size: 4rem;
-            padding: 1rem;
-            margin: 2rem 0;
-            background:white;
-        }
-
-        .box-container {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            padding: 2rem 9%;
-        }
-
-        .box {
-            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
-            border-radius: .5rem;
-            border: .1rem solid rgba(0, 0, 0, .1);
-            position: relative;
-            transition: transform .2s ease-in-out; 
-        }
-
-        .icons {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            display: flex;
-            transition: bottom .3s ease-in-out;
-        }
-
-        .box:hover .icons {
-            bottom: 1rem;
-        }
-
-        .box .icons a {
-            height: 5rem;
-            line-height: 5rem;
-            font-size: 2rem;
-            width: 100%;
-            color: white;
-            text-align: center;
-            display: block;
-            text-decoration: none;
-            opacity: 0; 
-            transition: opacity 0.3s ease;
-        }
-
-        .box:hover .icons a {
-            bottom: 0;
-            opacity: 1;
-            background: #501285;
-        }
-        
-        .content {
-            padding-bottom:-1rem;
-            text-align: center;
-            background-color: #fff;
-            border-bottom-left-radius: .5rem;
-            border-bottom-right-radius: .5rem;
-        }
-
-        .content img{
-            width: 450px;
-        }
-
-        box:hover {
-            transform: translateY(-5px);
-        }
+       header { background-color: #333; color: white; padding: 20px; text-align: center; }
+        nav { margin-top: 10px; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        section { padding: 40px; max-width: 800px; margin: 0 auto; }
+        h2 { color: #555; border-bottom: 2px solid #333; padding-bottom: 10px; }
+        .song { margin-bottom: 20px; padding: 10px; background-color: white; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .song h3 { margin-top: 0; }
+        iframe { width: 100%; height: 315px; border: none; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; }
